@@ -1,4 +1,12 @@
 
+// Builtin data structures are...
+/*
+Array
+Object
+Set
+Map
+*/
+
 // Array is a collection of data that can be stored in a single variable...
 // In javascript we can store multiple types data in a single variable there is no restrictions for to use only specific or single type of data in a variable array...
 
