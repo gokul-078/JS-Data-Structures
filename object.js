@@ -47,7 +47,7 @@ console.log(obj);
 
 // Object.keys() .values() .entries()...  This all three will give all keys, values and all entries of object inside an array...
 // Object.keys()
-console.log(Object.keys(obj));
+console.log(Object.keys(obj)[2]);
 
 // Object.values()
 console.log(Object.values(obj));
@@ -66,5 +66,4 @@ Object.keys() - O(n)
 Object.values() — O(n)
 Object.entries() — O(n)
 */
-
 

@@ -46,5 +46,3 @@ console.log(map);
 // To clear all values in the map...
 map.clear();
 console.log(map);
-
-
