@@ -89,6 +89,30 @@ class LinkedList {
         return removedNode.value
     }
 
+    removefromValue(value){
+        if(this.isEmpty()){
+            return null
+        }
+        if(value === this.head.value){
+            this.head = this.head.next
+            this.size--
+            return value
+        }
+        else{
+            let prev = this.head
+            while(prev.next && prev.next.value !== value){
+                prev = prev.next
+            }
+            if(prev.next){
+                const removeddNod = prev.next
+                prev.next = removeddNod.next
+                this.size--
+                return value
+            }
+            return null
+        }
+    }
+
     print(){
         if(this.isEmpty()){
             console.log("The list is empty")
